@@ -1,0 +1,179 @@
+.titulo1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+}
+.layout {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.divgatinhos {
+    display: flex;
+    align-items: center;
+    background-color: #FDF1E5;
+    flex-direction: column;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 60%;
+    height: 40%;
+    margin: 6px 6px 6px 6px;
+    padding: 17px 12px 12px 12px;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.divForm{
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+}
+.divots {
+    display: flex;
+    align-items: center;
+    background-color: #FDF1E5;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+.images {
+    display: flex;
+    -webkit-box-shadow: -10px 5px 26px 0px #d5c9c3;
+    -moz-box-shadow: -10px 5px 26px 0px #d5c9c3;
+    box-shadow: -10px 5px 26px 0px #d5c9c3;
+    -webkit-border-radius: 50px;
+}
+
+.imagens {
+    border-radius: 30px 30px 0px 0px;
+}
+
+.acao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+}
+
+.buttonVote {
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+    background-color: #dfbdfa;
+    border-radius: 6px;
+    border: 1px solid #c584f3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: -7px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #9752cc;
+}
+
+.buttonVote:hover {
+    background: linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+    background-color: #bc80ea;
+}
+
+.buttonVote:active {
+    position: relative;
+    top: 1px;
+}
+.buttonAdd {
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    background: linear-gradient(to bottom, #bdf1fa 5%, #80eac9 100%);
+    background-color: #bdf1fa;
+    border-radius: 6px;
+    border: 1px solid #84f1f3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 6%;
+    padding: 6px 8px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #527fcc;
+}
+
+.buttonAdd:hover {
+    background: linear-gradient(to bottom, #80eac9 5%, #bdf1fa 100%);
+    background-color: #80eac9;
+}
+
+.buttonAdd:active {
+    position: relative;
+    top: 1px;
+}
+
+.buttonDell {
+    box-shadow: inset 0px 1px 0px 0px #efdcfb;
+    background: linear-gradient(to bottom, #fad4bd 5%, #ec8c3e 100%);
+    background-color: #fae7bd;
+    border-radius: 6px;
+    border: 1px solid #f3c784;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 6px;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #cc8552;
+}
+
+.buttonDell:hover {
+    background: linear-gradient(to bottom, #ec8c3e 5%, #fad4bd 100%);
+    background-color: #fae7bd;
+}
+
+.buttonDell:active {
+    position: relative;
+    top: 1px;
+}
+
+.votos {
+    color: #FFFFFF;
+    background: #F7C1C1;
+    text-shadow: 4px 3px 4px #7A7A7A;
+    color: #FFFFFF;
+    border-radius: 100%;
+    background: #F7C1C1;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.input {
+    font-size: 16px;
+    border-color: #cccccc;
+    padding: 9px;
+    border-width: 1px;
+    border-style: hidden;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 5px 0px rgba(42, 42, 42, .75);
+}
+
+.input:focus {
+    outline: none;
+}
