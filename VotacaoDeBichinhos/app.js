@@ -1,5 +1,8 @@
 class Animal {
-    constructor() {
+    constructor(nome, votos, images) {
+      this.nome = nome;
+      this.votos = votos;
+      this.images = images;
       this.contador = [];
       this.soma = 0;
       this.layout = document.getElementById(`layout`);
